@@ -1,0 +1,19 @@
+- name: Развёртывание nginx
+  hosts: all # на все хосты
+  become: yes # sudo права
+  tasks:
+    - name: Установка nginx
+      package:
+        name: nginx
+        state: present
+
+    - name: Запуск nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Копируем index.html
+      copy:
+        src: index.html # из директории с плейбуком
+        dest: /var/www/html/index.html
