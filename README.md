@@ -62,6 +62,9 @@ ansible [core 2.19.3]
 
 ## Запуск плейбука
 Перехожу в папку с данным репозиторием и запускаю плейбук
+
 <img width="1041" height="626" alt="изображение" src="https://github.com/user-attachments/assets/fd6d6945-4394-4580-8723-ceec607d3e29" />
+
 Плейбук успешно раскатился, проверяю результат
+
 <img width="518" height="131" alt="изображение" src="https://github.com/user-attachments/assets/09170a2c-710b-4774-a394-7453ab7540e1" />
